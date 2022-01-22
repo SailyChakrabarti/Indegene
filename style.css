@@ -1,0 +1,875 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.headerbar{
+    display: flex;
+    flex-direction: row;
+    
+    flex: 20;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+
+
+}
+.logo{
+    flex: 1;
+    order: 1;
+
+    
+}
+.empty{
+    flex: 5;
+    order: 2;
+
+}
+
+.icon1{
+    
+    order: 3;
+   
+}
+.icon2{
+    
+    order: 4;
+    padding-left: 10px;
+
+}
+.icon3{
+   
+    order: 5;
+    padding-left: 10px;
+    
+
+}
+.menubox{
+    
+    order: 6;
+    padding-left: 20px;
+   
+
+}
+.hamburgerbox{
+   justify-items: flex-end;
+    order: 7;
+    padding-left: 20px;
+   
+
+}
+.menu{
+        font-size: 25px;
+        font-weight: 700;
+        padding-top: 10px;
+        
+} 
+.hamburger{
+    height: 40px;
+    padding-top: 10px;
+
+}
+/* .headerbar{
+    width: 100%;
+    float: left;
+
+    background-color: white;
+    color: black;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 22%;
+    float: left;
+    padding-left: 30px;
+
+    
+}
+.logo img{
+    
+
+}
+.navbar{
+    width: 60%;
+    float: right;
+
+
+}
+.right{
+    width: 40%;
+    float: right;
+    font-weight: 700;
+    color: black;
+}
+.iconbox{
+    justify-content: space-between;
+    width: 25%;
+    float: right;
+   
+    
+}
+.iconbox ul{
+    
+    
+
+}
+.iconbox li{
+    display: inline-block;
+    list-style: none;
+    float: right;
+
+   
+}
+.iconbox a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.menubox{
+    justify-content: space-between;
+    width: 10%;
+    float: left;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 150px;
+
+
+
+}
+.hamburgerbox{
+    justify-content: space-between;
+    width: 30%;
+    float: right;
+    padding-right: 30px;
+    height: 40px;
+    
+
+}
+*/
+
+.bannerbrown{
+    width: 100%;
+    float: left;
+
+    background-color: rgb(187, 179, 179);
+    color: white;
+
+    padding-top: 212px;
+    padding-bottom: 269px;
+}
+.bannerbrowntext{
+    width: 100%;
+    float: left
+
+   
+}
+.bannerbrown h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+    padding-bottom: 40px;
+    
+    
+}
+.bannerbrown p{
+    text-align: center;
+    font-size: 20px;
+   
+    
+}
+.button{
+    width: 100%;
+    float:left;
+    border-style: none;
+
+}
+.buttonbox1{
+    width: 49%;
+    float: left;
+    padding-top: 30px;
+}
+.buttonbox2{
+    width: 49%;
+    float: right;
+    padding-top: 30px;
+    
+}
+.button1{
+    width: 30%;
+    float: right;
+    background-color: tan;
+    color: white;
+    height: 50px;
+    border-style: none;
+
+
+}
+.button1 p{
+    text-align: center;
+}
+.button1 img{
+
+}
+.b{
+    background-color: white;
+    border-color: white;
+    color: black;
+    
+}
+.button2{
+    width: 30%;
+    float: left;
+    
+    background-color: white;
+    border-color: white;
+    color: black;
+    border-style: none;
+
+   
+    
+
+}
+.button2 img{
+    width: 30%;
+    float: left;
+    color: black;
+    max-height: 40px;
+    max-width: 40px;
+    padding-left: 6px;
+    padding-top: 6px;
+   
+}
+.button2 button{
+    width: 70%;
+    float: right;
+    text-align: left;
+    height: 50px;
+    border-style: none;
+
+}
+.bannerblue{
+    background-image: url(./background.png);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 233px;
+    padding-bottom: 242px;
+    /* min-height: 500px; */
+    /* background-size: auto; */
+
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+
+
+}
+.bannerbluetext{
+    width: 100%;
+    float: left;
+    
+}
+.bannerbluetext h1{
+    color: black;
+    text-align: left;
+   
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+
+
+}
+.bannerbluetext q{
+    color: white;
+    text-align: left;
+   
+   
+    padding-bottom: 20px;
+    font-size: 28px;
+
+
+}
+/* .bannerblue1 p{
+    color: white;
+    text-align: left;
+    color: white;
+    
+    
+
+} */
+.button3{
+    width: 15%;
+    float: left;
+    
+    background-color: white;
+    border-color: white;
+    color: black;
+   
+    
+
+}
+.button3 img{
+    width: 30%;
+    float: left;
+    color: black;
+    height: 50px;
+    max-height: 40px;
+    max-width: 40px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+.button3 button{
+    width: 70%;
+    float: right;
+    text-align: left;
+    height: 50px;
+    border-style: none;
+
+}
+
+.bannerwhite1{
+    width: 100%;
+    float: left;
+    padding-top: 56px;
+
+    padding-bottom: 82px;
+
+}
+.bannerwhite1text{
+    width: 100%;
+    float: left;
+
+}
+.bannerwhite1text h1{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+.bannerwhite1text p{
+    color: pink;
+    text-align: center; 
+    padding-bottom: 82px;
+}
+.bannerwhite1box{
+    width: 100%;
+    float: left;
+
+}
+.title{
+    color: black;
+}
+.para{
+    color: pink;
+}
+.group{
+    width: 100%;
+    float: left;
+}
+.box1{
+    width: 49%;
+    float: left;
+
+}
+.box1text{
+    width: 80%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 10px;
+
+}
+.box1 img{
+    width: 20%;
+    float: right;
+
+}
+.box1 h1{
+    color: black;
+    text-align: right;
+    font-weight: 700;
+}
+.box1 p{
+    color: pink;
+    text-align: right;
+}
+.box2{
+    width: 49%;
+    float: right;
+
+}
+.box2text{
+    width: 80%;
+    float: right;
+    padding-right: 40px;
+    padding-left: 10px;
+
+}
+.box2 img{
+    width: 20%;
+    float: left;
+
+}
+.box2 h1{
+    color: black;
+    text-align: left;
+    font-weight: 700;
+}
+.box2 p{
+    color: pink;
+    text-align: left;
+}
+.box3{
+    width: 49%;
+    float: left;
+
+}
+.box3text{
+    width: 80%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 10px;
+
+}
+.box3 img{
+    width: 20%;
+    float: right;
+
+}
+.box3 h1{
+    color: black;
+    text-align: right;
+    font-weight: 700;
+}
+.box3 p{
+    color: pink;
+    text-align: right;
+}
+.box4{
+    width: 49%;
+    float: right;
+
+}
+.box4text{
+    width: 80%;
+    float: right;
+    padding-right: 40px;
+    padding-left: 10px;
+
+
+}
+.box4 img{
+    width: 20%;
+    float: left;
+
+}
+.box4 h1{
+    color: black;
+    text-align: left;
+    font-weight: 700;
+}
+.box4 p{
+    color: pink;
+    text-align: left;
+}
+
+.box5{
+    width: 49%;
+    float: left;
+
+}
+.box5text{
+    width: 80%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 10px;
+
+}
+.box5 img{
+    width: 20%;
+    float: right;
+
+}
+.box5 h1{
+    color: black;
+    text-align: right;
+    font-weight: 700;
+}
+.box5 p{
+    color: pink;
+    text-align: right;
+}
+.box6{
+    width: 49%;
+    float: right;
+
+}
+.box6text{
+    width: 80%;
+    float: right;
+    padding-right: 40px;
+    padding-left: 10px;
+
+
+}
+.box6 img{
+    width: 20%;
+    float: left;
+
+}
+.box6 h1{
+    color: black;
+    text-align: left;
+    font-weight: 700;
+}
+.box6 p{
+    color: pink;
+    text-align: left;
+}
+.bannertree{
+    width: 100%;
+    float: left;
+
+    background-image: url(./forest.png);
+    background-position: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* min-height: 600px; */
+    padding-top: 124px;
+    padding-bottom: 301px;
+   
+
+}
+.bannertreetext{
+    width: 100%;
+    float: left;
+    
+}
+.bannertreetext h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 82px;
+    font-weight: 700;
+   
+    
+
+   
+}
+.bannertreebox1{
+    width: 33%;
+    float: left;
+
+    padding-left: 130px;
+    
+
+    
+    
+}
+.bannertreebox1 img{
+    width: 100%;
+    float: left;
+
+    max-height: 200px;
+    max-width: 200px;
+   
+
+
+   
+    
+
+}
+.bannertreebox1 p{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: grey;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+.bannertreebox2{
+    width: 33%;
+    float: left;
+
+    padding-left: 130px;
+    
+
+   
+}
+.bannertreebox2 img{
+    width: 100%;
+    float: left;
+
+    max-height: 200px;
+    max-width: 200px;
+   
+
+
+}
+.bannertreebox2 p{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+
+   
+    padding-right: 100px;
+}
+.bannertreebox3{
+    width: 33%;
+    float: left;
+
+    padding-left: 130px;
+    
+
+    
+}
+.bannertreebox3 img{
+    width: 100%;
+    float: left;
+
+    max-height: 200px;
+    max-width: 200px;
+   
+
+
+}
+.bannertreebox3 p{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: grey;
+    padding-top: 10px;
+
+    
+    padding-right: 100px;
+
+}
+.bannerwhite2{
+    width: 100%;
+    float: left;
+
+    background-color: white;
+    padding-top: 71px;
+    padding-bottom: 106px;
+   
+
+    
+}
+.bannerwhite2text{
+    width: 100%;
+    float: left;
+   
+
+    
+}
+.bannerwhite2text h1{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.bannerwhite2text p{
+    color: tan;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.bannerwhite2box{
+    width: 100%;
+    float: left;
+    padding-left: 300px;
+  
+    
+    
+}
+.bannerwhite2box1{
+    width: 20%;
+    float: left;
+    justify-items: space-between;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20px;
+    border-color: white;
+       
+}
+.bannerwhite2box1 img{
+    width: 100%;
+    float: left;
+}
+.bannerwhite2box1left{
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(253, 237, 216);
+}
+.bannerwhite2box1right{
+    width: 60%;
+    float: left;
+    text-align: left;
+    height: 400px;
+}
+.bannerwhite2box2{
+    width: 20%;
+    float: left;
+    justify-items: space-between;
+    border-style: solid;
+    border-color: black;
+    margin-right: 20px;
+    border-color: white;
+}
+.bannerwhite2box2 img{
+    width: 100%;
+    float: left;
+}
+.bannerwhite2box2left{
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(253, 237, 216);
+}
+.bannerwhite2box2right{
+    width: 60%;
+    float: left;
+    text-align: left;
+    height: 400px;
+}
+.bannerwhite2box3{
+    width: 20%;
+    float: left;
+    justify-items: space-between;
+    border-style: solid;
+    border-color: black;
+    border-color: white;
+    
+}
+.bannerwhite2box3 img{
+    width: 100%;
+    float: left;
+}
+.bannerwhite2box3left{
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(253, 237, 216);
+}
+
+.bannerwhite2box3right{
+    width: 60%;
+    float: left;
+    text-align: left;
+    height: 400px;
+}
+.bannerwhite2box1left{
+    color: tan
+    
+}
+.bannerwhite2box2left{
+    color: tan;
+}
+.bannerwhite2box3left{
+    color: tan;
+}
+.eighteen{
+    font-weight: 900;
+}
+.footerbar{
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    padding-top: 114px;
+    padding-bottom: 125px;
+}
+.footertext{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-weight: 700;
+}
+.footertext h1{
+   
+    font-weight: 700;
+}
+.footerform{
+    width: 100%;
+    float: left;
+}
+.footerbar h1{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footerform{
+    padding-left: 450px;
+    padding-bottom: 20px;
+}
+.footerform input{
+    width: 40%;   
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    
+    
+    
+
+}
+.footerform button{
+    background-color: tan;
+    color: white;
+    border-color: tan;
+    border-radius: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   
+    border-style: none;
+    padding-left: 4px;
+    padding-right: 4px;
+
+
+    
+}
+.footerbox{
+    width: 100%;
+    float: left;
+
+}
+.footerbox1{
+    width: 46%;
+    float: left;
+    text-align: right;
+
+}
+.footerbox2{
+    width: 12%;
+    float: left;
+    text-align: center;
+
+}
+.footerbox3{
+    width: 12%;
+    float: left;
+    text-align: center;
+    
+}
+.footerbox4{
+    width: 30%;
+    float: left;
+    text-align: left;
+    
+}
